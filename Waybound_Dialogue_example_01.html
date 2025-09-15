@@ -24,7 +24,7 @@
   background-color: grey;
   color: #fff;
   text-align: center;
-  padding: 5px 0;
+  padding: 10px 15px;
   border-radius: 6px;
  
   /* Position the tooltip text - see examples below! */
@@ -40,11 +40,47 @@
 
 <div class="tooltip">Hover over me
   <span class="tooltiptext">Tooltip text</span>
+</div> 
+
+/* Divider
+
+<style>
+/* Tooltip container */
+.tooltip2 {
+  position: flex;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip2 .tooltiptext2 {
+  visibility: hidden;
+  width: 620px;
+  background-color: grey;
+  color: #fff;
+  text-align: center;
+  padding: 10px 15px;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  left: -620px;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip2:hover .tooltiptext2 {
+  visibility: visible;
+}
+</style>
+
+<div class="tooltip2">Hover over me
+  <span class="tooltiptext2">Tooltip text</span>
 </div> </style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="Das" color="red"></tw-tag><tw-passagedata pid="1" name="Start" tags="Das" position="600,100" size="100,100">| Early - The Hunter Plains |
 
 //While standing at the edge of your Caravan&#39;s campsite, you hear loud voices nearby. 
 
-As you approach a set of thick bushes hiding amidst the unsettled shadows of two grand elms, you come to realize that the source of the disturbance is coming from your two Wayfinders, locked in what seems to be a flamewrought debate. 
+As you approach a set of thick bushes hiding amidst the unsettled shadows of two grand elms, you come to realize that the source of the disturbance is coming from your two &lt;span class=&#39;tooltip2&#39;&gt;(text-colour:orange)[Wayfinders]&lt;span class=&#39;tooltiptext2&#39;&gt;A person who has been gifted with power from the Guidance, which allows them to see and discern the Paths through the mists.&lt;matchesDesc&gt;&lt;/span&gt;&lt;/span&gt;, locked in what seems to be a flamewrought debate. 
 
 It would also appear that they have yet to have noticed you approaching, but their words are clear enough now that their meanings are unmistakably the make of fiery discourse.//
 
@@ -52,7 +88,7 @@ It would also appear that they have yet to have noticed you approaching, but the
 [[Next]] </tw-passagedata><tw-passagedata pid="2" name="Next" tags="" position="600,300" size="100,100">&#39;&#39;Wayfinder Mica: &#39;&#39;...to &lt;span class=&#39;tooltip&#39;&gt;(text-colour:orange)[Shakarr]&lt;span class=&#39;tooltiptext&#39;&gt;An ancient Spirit of Death, who is well-known among the End-Tribes of the Fhaun.&lt;matchesDesc&gt;&lt;/span&gt;&lt;/span&gt; with you, old man! You would be a fool to take us all so openly through //their// lands! 
 
 [[Next1]]
-</tw-passagedata><tw-passagedata pid="3" name="Next1" tags="" position="700,300" size="100,100">&#39;&#39;Wayfinder Tolam: &#39;&#39;With age comes wisdom born from foolishness, //Budling//.
+</tw-passagedata><tw-passagedata pid="3" name="Next1" tags="" position="700,300" size="100,100">&#39;&#39;Wayfinder Tolam: &#39;&#39;With age comes wisdom born from foolishness, &lt;span class=&#39;tooltip2&#39;&gt;(text-colour:orange)[//Budling//]&lt;span class=&#39;tooltiptext2&#39;&gt;An Arrivals-sourced term that is used to refer to younger Fhaun. Often used in an insulting way.&lt;matchesDesc&gt;&lt;/span&gt;&lt;/span&gt;.
 
 //Mine// is the safer &lt;span class=&#39;tooltip&#39;&gt;(text-colour:orange)[Path]&lt;span class=&#39;tooltiptext&#39;&gt;A &quot;safe&quot; route that pierces through the mists of the &quot;Obscurity&quot;, which allows Travellers to find a way to Menhirs.&lt;matchesDesc&gt;&lt;/span&gt;&lt;/span&gt;, as proven by experience. So sit down, calm yourself, and learn from your Elders. Lest your &lt;span class=&#39;tooltip&#39;&gt;(text-colour:orange)[//Bloom//]&lt;span class=&#39;tooltiptext&#39;&gt;A Bloom is like a kind of second Soul that is part of some Fhaun, specifically Wayfinder Fhaun. It can manifest as an ethereal flower.&lt;matchesDesc&gt;&lt;/span&gt;&lt;/span&gt; wilts from impatience.
 
@@ -61,11 +97,11 @@ It would also appear that they have yet to have noticed you approaching, but the
 &#39;&#39;Wayfinder Tolam:&#39;&#39; Ah. Didn&#39;t see you there, Sovereign. Beg your forgiveness, it was not my intention to wake you or the camp with this loud //nonsense//.
 
 [[Next2]]
-</tw-passagedata><tw-passagedata pid="5" name="Next2" tags="" position="800,500" size="100,100">&#39;&#39;Wayfinder Mica:&#39;&#39; Nor was it mine, ||Vasshik/Vasshika||. But sometimes doing the right thing warrants some necessary zasskha. “//Nonsense//”, as he says. Even if it is loud and unbearable. 
+</tw-passagedata><tw-passagedata pid="5" name="Next2" tags="" position="800,500" size="100,100">&#39;&#39;Wayfinder Mica:&#39;&#39; Nor was it mine, &lt;span class=&#39;tooltip&#39;&gt;(text-colour:orange)[//Vasshik/Vasshika//]&lt;span class=&#39;tooltiptext&#39;&gt;A Fhaun word which means &quot;Master&quot; or &quot;Leader&quot;. A term of respect.&lt;matchesDesc&gt;&lt;/span&gt;&lt;/span&gt;. But sometimes doing the right thing warrants some necessary zasskha. “//Nonsense//”, as he says. Even if it is loud and unbearable. 
 
-Though, you would have better luck convincing a Wildkath to do somersaults on an empty stomach, than turn this one’s mind towards reason.
+Though, you would have better luck convincing a &lt;span class=&#39;tooltip&#39;&gt;(text-colour:orange)[//Wildkath//]&lt;span class=&#39;tooltiptext&#39;&gt;A prowling cat-like beast that stalks the open plains, hiding in tall grass.&lt;matchesDesc&gt;&lt;/span&gt;&lt;/span&gt; to do somersaults on an empty stomach, than turn this one’s mind towards reason.
 
-[[Next3]]</tw-passagedata><tw-passagedata pid="6" name="Next3" tags="" position="900,500" size="100,100">&#39;&#39;Wayfinder Tolam:&#39;&#39; We are having a… disagreement of common sense, is all, my ||Lord/Lady||. The Caravan is still on the correct course, as per my directions.
+[[Next3]]</tw-passagedata><tw-passagedata pid="6" name="Next3" tags="" position="900,500" size="100,100">&#39;&#39;Wayfinder Tolam:&#39;&#39; We are having a… disagreement of common sense, is all, my Lord/Lady. The &lt;span class=&#39;tooltip2&#39;&gt;(text-colour:orange)[//Caravan//]&lt;span class=&#39;tooltiptext2&#39;&gt;What one could define as a &quot;moving village&quot;. It consists of many Travellers who live in Wagonhomes, led by a Sovereign, Retainers, and one or two Wayfinders.&lt;matchesDesc&gt;&lt;/span&gt;&lt;/span&gt; is still on the correct course, as per my directions.
 
 [[1. A disagreement?]]
 </tw-passagedata><tw-passagedata pid="7" name="1. A disagreement?" tags="" position="800,700" size="100,100">//1. A disagreement?//
