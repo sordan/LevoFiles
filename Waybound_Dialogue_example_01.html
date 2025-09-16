@@ -10,12 +10,20 @@
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play DialogueExample.</tw-noscript></noscript></tw-story>
 <tw-storydata name="DialogueExample" startnode="1" creator="Twine" creator-version="2.10.0" format="Harlowe" format-version="3.3.9" ifid="6632FD04-1857-44A4-9D69-DF1F2BC7896C" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"><style>
+
 /* Tooltip container */
 .tooltip {
   position: flex;
   display: inline-block;
   border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
 }
+
+
+img {
+border-radius: 50px; /* Give images rounded corners */
+float: left top; /* Float images to the left, allowing text to wrap */
+margin-right: 25px; /* Add space between image and text */
+    }
 
 /* Tooltip text */
 .tooltip .tooltiptext {
@@ -76,7 +84,13 @@
 
 <div class="tooltip2">Hover over me
   <span class="tooltiptext2">Tooltip text</span>
-</div> </style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="Das" color="red"></tw-tag><tw-passagedata pid="1" name="Start" tags="Das" position="600,100" size="100,100">| Early Daybreak - The Hunter Plains |
+</div> 
+
+
+
+
+
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="Das" color="red"></tw-tag><tw-passagedata pid="1" name="Start" tags="Das" position="600,100" size="100,100">| Early Daybreak - The Hunter Plains |
 
 //While standing at the edge of your Caravan&#39;s campsite, you hear loud voices nearby. 
 
@@ -232,7 +246,13 @@ The woods are dark and confusing to the untrained, and your &lt;span class=&#39;
 
 </tw-passagedata><tw-passagedata pid="28" name="2. I must consider our options." tags="" position="2000,1200" size="100,100">//I must consider our options.//
 
-[[Next11]]
+[[1. I am ready to decide.]]
+
+[[2. Mica&#39;s Way?]]
+
+[[3. Tolam&#39;s Way?]]
+
+[[![Fhaun Lore Check] Can we trust your Bloom, Mica?]]
 </tw-passagedata><tw-passagedata pid="29" name="Next11" tags="" position="1600,900" size="100,100">We can take this old &lt;span class=&#39;tooltip&#39;&gt;(text-colour:orange)[//shekkin&#39;s//]&lt;span class=&#39;tooltiptext&#39;&gt;Fhaun word for &quot;Old person&quot;, usually meant as an insult.&lt;matchesDesc&gt;&lt;/span&gt;&lt;/span&gt; Path through the vile hunters’ grasses, //or// we take the better Path that my Bloom has uncovered. &lt;span class=&#39;tooltip&#39;&gt;(text-colour:orange)[//Rasshta-vui//]&lt;span class=&#39;tooltiptext&#39;&gt;&quot;It is so, yes.&quot;&lt;matchesDesc&gt;&lt;/span&gt;&lt;/span&gt;.
 
 What say you, &lt;span class=&#39;tooltip&#39;&gt;(text-colour:orange)[//Vasshik/Vasshika//]&lt;span class=&#39;tooltiptext&#39;&gt;A Fhaun word which means &quot;Master&quot; or &quot;Leader&quot;. A term of respect.&lt;matchesDesc&gt;&lt;/span&gt;&lt;/span&gt;?
